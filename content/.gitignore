@@ -1,2 +1,2 @@
-*
-!/blog/_index.md
+blog/*
+!blog/_index.md
