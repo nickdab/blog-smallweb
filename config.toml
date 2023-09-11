@@ -177,3 +177,7 @@ index_format = "elasticlunr_javascript"
 # author value will be available using {{ config.extra.author }} in templates
 #
 [extra]
+links = [
+    { title = "github", rel = "me", href = "https://github.com/nickdab/" },
+    { title = "LinkedIn", rel = "me", href = "https://www.linkedin.com/in/nic-birney/"},
+    ]
