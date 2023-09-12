@@ -6,7 +6,7 @@
         <h1>{{ config.title }}</h1>
         {% set linked_pages = section.pages | filter(attribute="extra.in_header") %}
         {% if config.extra.links or linked_pages %}
-		<p> by <a class="h-card" href="https://nicbirney.com"> Nic Birney </a> </p>
+		<p>by<a class="h-card" href="https://nicbirney.com"> Nic Birney </a></p>
         <nav class="header-links">
             {% for link in config.extra.links %}
             <a href="{{ link.href }}" rel="me">{{ link.title }}</a>
