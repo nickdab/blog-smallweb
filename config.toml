@@ -1,5 +1,5 @@
 # The base URL of the site; the only required configuration variable.
-base_url = "http://nicbirney.com"
+base_url = "https://nicbirney.com"
 
 # The site title and description; used in feeds by default.
 title = "Nic's Blog"
