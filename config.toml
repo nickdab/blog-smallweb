@@ -59,7 +59,10 @@ hard_link_static = false
 #       {name = "authors"}, # Basic definition: no feed or pagination
 #     ]
 #
-#taxonomies = []
+taxonomies = [
+	{name = "tags", feed = true},
+	{name = "categories", paginate_by = 5},
+	]
 
 # When set to "true", a search index is built from the pages and section
 # content for `default_language`.
@@ -174,3 +177,8 @@ index_format = "elasticlunr_javascript"
 # author value will be available using {{ config.extra.author }} in templates
 #
 [extra]
+links = [
+    { title = "github", rel = "me", href = "https://github.com/nickdab/" },
+    { title = "linkedin", rel = "me", href = "https://www.linkedin.com/in/nic-birney/"},
+    { title = "instagram", rel = "me", href= "https://www.instagram.com/nicbirney/"},
+    ]
